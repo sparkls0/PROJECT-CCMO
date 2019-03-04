@@ -1,0 +1,113 @@
+.flotte {
+float:right;
+}
+.flottegoll {
+float:right;
+}
+.flottehunter1{
+float:left;
+}
+.flottejoinarmy{
+	float:left;
+}
+.goll{
+	margin: 100px 500px 0px;
+}
+
+.btn{
+	display: block;
+   margin : auto;
+}
+.rating a {
+   color: blue;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus {
+   color: blue;
+   cursor: pointer;
+}
+a.rating-1{
+	color: #D8D8D8;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+
+}
+.rating-1:hover,
+.rating-1:focus {
+   color: #D8D8D8;
+   cursor: pointer;
+}
+
+
+/*GANDALF CARDS*/
+.Gandalf{
+  font-family: "Open Sans", sans-serif;
+}
+
+.wanted {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.wizardPicture {
+  opacity: 0.6;
+}
+  
+.reward {
+  position: absolute;
+  width: 80%;
+  font-size: 30px;
+  margin-left: 10%;
+  top: 5%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6)
+}
+
+.wizardName {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+span {
+  color: orange;
+}
+.wanted:hover .reward {
+  display: none;
+}
+
+.wanted:hover .wizardName {
+  font-size: 30px;
+  margin-top: 55%;
+  
+}
+.wanted:hover .wizardPicture {
+  opacity: 1;
+}
+/*HOBBIT CARDS*/
+
+.Hobbit img {
+filter: contrast(30%);
+-webkit-filter: contrast(30%);
+}
+.Hobbit img:hover {
+filter: contrast(100%);
+-webkit-filter: contrast(100%);
+}
+
+.HobbitDEAD {
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}

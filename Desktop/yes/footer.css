@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 body{
   font-family: 'Source Sans Pro', sans-serif;
@@ -60,12 +61,8 @@ section{
     transition: all 1s ease;
 	z-index:1;
 }
-.footer:hover {
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+.footer:hover{
+	
 	height: 10.5em;
 }
 .footer .container{

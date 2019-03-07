@@ -24,6 +24,10 @@ body {
 	background-image: url(https://i.ibb.co/qj3NRmd/logo-wild-code-school-startup-levee-fonds-alloweb.jpg);
 	background-position:center center;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
 
 #text-feedback{
 	width: 80%;
@@ -234,7 +238,7 @@ section{
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
-.footer #button:hover{
+.footer #button:active{
 	width:30px;
 	height:30px;
 	border: #3A3A3A 12px solid;
@@ -260,12 +264,8 @@ section{
     transition: all 1s ease;
 	z-index:1;
 }
-.footer:hover {
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+.footer:active	{
+	
 	height: 10.5em;
 }
 .footer .container{
